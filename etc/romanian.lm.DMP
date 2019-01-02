@@ -1,0 +1,85 @@
+Language model created by QuickLM on Tue Jan  1 09:03:50 EST 2019
+Copyright (c) 1996-2010 Carnegie Mellon University and Alexander I. Rudnicky
+
+The model is in standard ARPA format, designed by Doug Paul while he was at MITRE.
+
+The code that was used to produce this language model is available in Open Source.
+Please visit http://www.speech.cs.cmu.edu/tools/ for more information
+
+The (fixed) discount mass is 0.5. The backoffs are computed using the ratio method.
+This model based on a corpus of 15 sentences and 17 words
+
+\data\
+ngram 1=17
+ngram 2=30
+ngram 3=15
+
+\1-grams:
+-0.7782 </s> -0.3010
+-0.7782 <s> -0.2218
+-1.9542 ANDREI -0.2218
+-1.9542 ASISTENT -0.2218
+-1.9542 CASă -0.2218
+-1.9542 CRăCIUN -0.2218
+-1.9542 CâINE -0.2218
+-1.9542 DANA -0.2218
+-1.9542 DATă -0.2218
+-1.9542 IEPURAș -0.2218
+-1.9542 JOI -0.2218
+-1.9542 MARIA -0.2218
+-1.9542 MASă -0.2218
+-1.9542 MâINE -0.2218
+-1.9542 NOI -0.2218
+-1.9542 SâMBăTă -0.2218
+-1.9542 TEST -0.2218
+
+\2-grams:
+-1.4771 <s> ANDREI 0.0000
+-1.4771 <s> ASISTENT 0.0000
+-1.4771 <s> CASă 0.0000
+-1.4771 <s> CRăCIUN 0.0000
+-1.4771 <s> CâINE 0.0000
+-1.4771 <s> DANA 0.0000
+-1.4771 <s> DATă 0.0000
+-1.4771 <s> IEPURAș 0.0000
+-1.4771 <s> JOI 0.0000
+-1.4771 <s> MARIA 0.0000
+-1.4771 <s> MASă 0.0000
+-1.4771 <s> MâINE 0.0000
+-1.4771 <s> NOI 0.0000
+-1.4771 <s> SâMBăTă 0.0000
+-1.4771 <s> TEST 0.0000
+-0.3010 ANDREI </s> -0.3010
+-0.3010 ASISTENT </s> -0.3010
+-0.3010 CASă </s> -0.3010
+-0.3010 CRăCIUN </s> -0.3010
+-0.3010 CâINE </s> -0.3010
+-0.3010 DANA </s> -0.3010
+-0.3010 DATă </s> -0.3010
+-0.3010 IEPURAș </s> -0.3010
+-0.3010 JOI </s> -0.3010
+-0.3010 MARIA </s> -0.3010
+-0.3010 MASă </s> -0.3010
+-0.3010 MâINE </s> -0.3010
+-0.3010 NOI </s> -0.3010
+-0.3010 SâMBăTă </s> -0.3010
+-0.3010 TEST </s> -0.3010
+
+\3-grams:
+-0.3010 <s> ANDREI </s>
+-0.3010 <s> ASISTENT </s>
+-0.3010 <s> CASă </s>
+-0.3010 <s> CRăCIUN </s>
+-0.3010 <s> CâINE </s>
+-0.3010 <s> DANA </s>
+-0.3010 <s> DATă </s>
+-0.3010 <s> IEPURAș </s>
+-0.3010 <s> JOI </s>
+-0.3010 <s> MARIA </s>
+-0.3010 <s> MASă </s>
+-0.3010 <s> MâINE </s>
+-0.3010 <s> NOI </s>
+-0.3010 <s> SâMBăTă </s>
+-0.3010 <s> TEST </s>
+
+\end\
